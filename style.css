@@ -79,6 +79,8 @@ li {
     overflow: hidden;
     text-overflow: ellipsis; 
     box-sizing: border-box;
+    transition: 0.5s linear;
+
 }
 
 li a {
@@ -172,7 +174,7 @@ li.lists-items{
   
 }
 
-i#deletebox{
+#deletebox{
   background-color:#10B981;
   cursor: pointer;
   color:#1F2937;

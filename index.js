@@ -24,10 +24,21 @@ function render(leads) {
   for (let i = 0; i < leads.length; i++) {
     lists += `<li class="lists-items">
       <a target='_blank' href='${leads[i]}'> ${leads[i]} </a> 
-      <i class="fa fa-trash" id="deletebox"></i>
+      <span><i class="fa fa-trash"  id="deletebox"></i></span>
       </li>`;
   }
   ulEl.innerHTML = lists;
+}
+
+const close = document.querySelectorAll("span");
+for (let i = 0; i < close.length; i++) {
+  close[i].addEventListener("click", () => {
+    close[i].parentElement.style.opacity = 0;
+    setTimeout(() => {
+      close[i].parentElement.style.display = "none";
+      close[i].parentElement.remove();
+    }, 500);
+  });
 }
 
 deleteBtn.addEventListener("dblclick", function () {
