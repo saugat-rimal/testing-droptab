@@ -44,7 +44,6 @@ function deleteItem(index) {
 
   localStorageData.splice(index, 1);
   localStorage.setItem("myLeads", JSON.stringify(localStorageData));
-  render(myLeads);
 }
 
 deleteBtn.addEventListener("dblclick", function () {
