@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+*::after,*::before {
+box-sizing: border-box;
+}
+
+section#container{
+    background-color: #1F2937;
+    min-height: 37vh;
+    width: 600px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+}
+
+input#input-el{
+    width: 100%;
+    padding: 14px;
+    background-color: #273549;
+    border: 1px solid #273549;
+    outline: #273549;
+    border-radius: 6px;
+    caret-color: #55F991;
+    color: #55F991;
+    font-size: 16px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+}
+div.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .button{
+    min-width: 130px;
+    height: 40px;
+    color:  #1F2937;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #10B981;
+}
+
+.button:hover{
+    transform: translateY(3px);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    background-color: #23c38d;
+
+} 
+
+li {
+    list-style: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    background-color: #273549;
+    margin-top: 10px;
+    padding: 10px ;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #55F991;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    box-sizing: border-box;
+}
+
+li a {
+    list-style: none;
+    background-color: #273549;
+    padding: 0px 5px 0px 0px ;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #55F991;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#footer-box{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#footer{
+    margin-top: 2rem ;
+   display: flex;
+   justify-content: center;
+}
+
+#footer p{
+    color: #1F2937;
+    font-weight: 600;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: #23c38d;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+a{
+    color: #1F2937;
+    text-decoration: none;  
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: ghostwhite;
+    opacity: 0.3; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: ghostwhite;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: ghostwhite;
+  }
+
+  /* scroll bar  */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #273549;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #55F991 0%, #10B981 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  }
+
+#delete-btn
+  {    
+    background: #273549;
+    color:#10B981;
+  }
+  
+/* Button cross to delete a certain box */
+
+#deletebox:hover{
+  background-color: #23c38d;
+  color: black;
+}
+
+li.lists-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+}
+
+i#deletebox{
+  background-color:#10B981;
+  cursor: pointer;
+  color:#1F2937;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  padding: 12px 14px;
+}

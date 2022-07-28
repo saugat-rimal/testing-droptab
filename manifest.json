@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Drop Tab  – Best bookmark tool for visiting later",
+    "description": "With Drop Tab you can add and saves web pages much more efficiently.  Now, no need to clutter your menu bar with bookmarks. Just open chrome, install the extension, and save away. You don’t even need to sign into your Gmail account.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "droptab.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+       "128": "droptab.png"
+     }
+}
+
+
+
