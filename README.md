@@ -1,4 +1,4 @@
-# Drop Tab  – Best bookmark tool for visiting later
+# Drop Tab  – Best bookmark tool 
 
 Ever stumble upon an article that looks really intriguing to read? If so, have you ever been conflicted to bookmark the article and risk it getting lost in the chaos of your other bookmarks? Sounds like Drop Tab might be the right tool for you then.
 
